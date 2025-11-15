@@ -1,0 +1,938 @@
+{
+    "id": "b19c16a2-8ef3-41dd-94c5-5b9c9074bf57",
+    "level": 2,
+    "callsign": "Drake",
+    "name": "Fen",
+    "player_name": "",
+    "status": "Active",
+    "dead": false,
+    "text_appearance": "",
+    "notes": "Badgers want us to get on the train = Get any info about the orbital and what is the Drop point incident",
+    "history": "",
+    "quirks": [],
+    "current_hp": 9,
+    "background": "NHP Specialist",
+    "resistances": [],
+    "mechs": [
+        {
+            "id": "10b511e7-e4f5-40a0-8800-c50927bc38bd",
+            "name": "Bunk",
+            "notes": "",
+            "gm_note": "",
+            "frame": "mf_sagarmatha",
+            "active": false,
+            "current_structure": 4,
+            "current_move": 4,
+            "boost": 0,
+            "current_hp": 19,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 6,
+            "current_overcharge": 0,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Sat Oct 12 2024 17:47:43 GMT-0400 (Eastern Daylight Time)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "",
+            "loadouts": [
+                {
+                    "id": "e1b099be-8922-4641-91b1-27588276c1a9",
+                    "name": "Primary",
+                    "systems": [
+                        {
+                            "id": "ms_custom_paint_job",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_personalizations",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_type_3_projected_shield",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "The GMS Type-3 Projected Shield traps and denies incoming projectiles by projecting an aggressive, superpositional anti-ballistic barrier."
+                        },
+                        {
+                            "id": "ms_stable_structure",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Main",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": {
+                                        "id": "mw_shotgun",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-I (T-1) line is defined by powerful, reliable, and conventional-kinetic ranged and melee weapons, including the GMS assault rifle, heavy machine gun, shotgun, pistol, and various light and heavy blades. Reliable galactic standards, the GMS T-1 line is the most widely used mech-scale line of weaponry across the galaxy. Echoing the Everest’s design notes, T-1 weapons are simply designed, with few (if any) moving parts, intended to be used in or adaptable to any environment.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Flex",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Flex",
+                                    "weapon": {
+                                        "id": "mw_nexus_light",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": {
+                                        "id": "mw_nexus_light",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Heavy",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Heavy",
+                                    "weapon": {
+                                        "id": "mw_heavy_melee_weapon",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-I (T-1) line is defined by powerful, reliable, and conventional-kinetic ranged and melee weapons, including the GMS assault rifle, heavy machine gun, shotgun, pistol, and various light and heavy blades. Reliable galactic standards, the GMS T-1 line is the most widely used mech-scale line of weaponry across the galaxy. Echoing the Everest’s design notes, T-1 weapons are simply designed, with few (if any) moving parts, intended to be used in or adaptable to any environment.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                },
+                {
+                    "id": "a4922d74-ff8b-45cf-b7e2-bf7880d3cb82",
+                    "name": "Primary (Copy)",
+                    "systems": [
+                        {
+                            "id": "ms_custom_paint_job",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_personalizations",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_stable_structure",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_hive_drone",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "It looks, at first, like a roiling cloud of gray fog, churning and fizzing – smoking soda water spilled across concrete. It advances with curious motion, stretching and snapping back. A confusion of snakes, writhing forward with speed that betrays intent.<br>Color flashes across the gray cloud, a swarm-luminescence – the light created by millions of nanites glowing with heat as they consume whatever they cross.<br>This is greywash, and it is never sated."
+                        },
+                        {
+                            "id": "ms_scanner_swarm",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "HORUS-coded scanner swarms establish oculus-form nanite protocols around defined objects or areas, ensuring constant circulation and data capture. The nanites ingest and process full-spectrum information, relaying it back to their pilot/parent in return for an endorphic code-impulse that prompts continued scanning."
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Main",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": {
+                                        "id": "mw_shotgun",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-I (T-1) line is defined by powerful, reliable, and conventional-kinetic ranged and melee weapons, including the GMS assault rifle, heavy machine gun, shotgun, pistol, and various light and heavy blades. Reliable galactic standards, the GMS T-1 line is the most widely used mech-scale line of weaponry across the galaxy. Echoing the Everest’s design notes, T-1 weapons are simply designed, with few (if any) moving parts, intended to be used in or adaptable to any environment.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Flex",
+                            "lock": true,
+                            "slots": [
+                                {
+                                    "size": "Flex",
+                                    "weapon": null
+                                }
+                            ],
+                            "extra": [
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": null
+                                }
+                            ],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Heavy",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Heavy",
+                                    "weapon": {
+                                        "id": "mw_tempest_charged_blade",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "The latest innovations of GMS’s Type-II line of powered and energy weapons have produced a charged blade of staggering proportions. It is currently carried in the “Storm” line of superheavy equipment.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 1
+        },
+        {
+            "id": "8976de01-3a7f-4e69-9c02-5acae55db810",
+            "name": "Bunk*",
+            "notes": "",
+            "gm_note": "",
+            "frame": "mf_sagarmatha",
+            "active": false,
+            "current_structure": 4,
+            "current_move": 0,
+            "boost": 3,
+            "current_hp": 19,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 6,
+            "current_overcharge": 3,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Sat Mar 02 2024 19:01:46 GMT-0500 (Eastern Standard Time)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "",
+            "loadouts": [
+                {
+                    "id": "e1b099be-8922-4641-91b1-27588276c1a9",
+                    "name": "Primary",
+                    "systems": [
+                        {
+                            "id": "ms_custom_paint_job",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_personalizations",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_type_3_projected_shield",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "The GMS Type-3 Projected Shield traps and denies incoming projectiles by projecting an aggressive, superpositional anti-ballistic barrier."
+                        },
+                        {
+                            "id": "ms_stable_structure",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Main",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": {
+                                        "id": "mw_shotgun",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-I (T-1) line is defined by powerful, reliable, and conventional-kinetic ranged and melee weapons, including the GMS assault rifle, heavy machine gun, shotgun, pistol, and various light and heavy blades. Reliable galactic standards, the GMS T-1 line is the most widely used mech-scale line of weaponry across the galaxy. Echoing the Everest’s design notes, T-1 weapons are simply designed, with few (if any) moving parts, intended to be used in or adaptable to any environment.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Flex",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Flex",
+                                    "weapon": null
+                                }
+                            ],
+                            "extra": [
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": null
+                                }
+                            ],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Heavy",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Heavy",
+                                    "weapon": {
+                                        "id": "mw_heavy_melee_weapon",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-I (T-1) line is defined by powerful, reliable, and conventional-kinetic ranged and melee weapons, including the GMS assault rifle, heavy machine gun, shotgun, pistol, and various light and heavy blades. Reliable galactic standards, the GMS T-1 line is the most widely used mech-scale line of weaponry across the galaxy. Echoing the Everest’s design notes, T-1 weapons are simply designed, with few (if any) moving parts, intended to be used in or adaptable to any environment.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 0
+        },
+        {
+            "id": "222ffc4b-0c5f-4885-b7db-2d0c62c3b564",
+            "name": "Drake",
+            "notes": "",
+            "gm_note": "",
+            "frame": "mf_balor",
+            "active": false,
+            "current_structure": 4,
+            "current_move": 3,
+            "boost": 0,
+            "current_hp": 21,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 6,
+            "current_overcharge": 0,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Sun Sep 21 2025 01:28:48 GMT+0200 (Central European Summer Time)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "",
+            "loadouts": [
+                {
+                    "id": "14711af9-aa9c-4f8b-9c11-312dafe6defe",
+                    "name": "Primary",
+                    "systems": [],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Main",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": null
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Heavy",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Heavy",
+                                    "weapon": null
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 0
+        }
+    ],
+    "cc_ver": "",
+    "special_equipment": {
+        "PilotGear": [],
+        "Frames": [],
+        "MechWeapons": [],
+        "WeaponMods": [],
+        "MechSystems": [],
+        "SystemMods": []
+    },
+    "combat_history": {
+        "moves": 91,
+        "kills": 7,
+        "damage": 154,
+        "hp_damage": 25,
+        "structure_damage": -1,
+        "overshield": 0,
+        "heat_damage": 23,
+        "reactor_damage": 0,
+        "overcharge_uses": 0,
+        "core_uses": 3
+    },
+    "state": {
+        "active_mech_id": "222ffc4b-0c5f-4885-b7db-2d0c62c3b564",
+        "remote_mech_id": "",
+        "stage": "Narrative",
+        "turn": 1,
+        "mission": 0,
+        "actions": 2,
+        "braced": false,
+        "overcharged": false,
+        "prepare": false,
+        "bracedCooldown": false,
+        "redundant": false,
+        "stats": {
+            "moves": 0,
+            "kills": 0,
+            "damage": 0,
+            "hp_damage": 0,
+            "structure_damage": 0,
+            "overshield": 0,
+            "heat_damage": 0,
+            "reactor_damage": 0,
+            "overcharge_uses": 0,
+            "core_uses": 0
+        },
+        "deployed": []
+    },
+    "lastModified": "Sat Sep 20 2025 22:04:39 GMT+0200 (Central European Summer Time)",
+    "isDeleted": false,
+    "expireTime": "",
+    "deleteTime": "",
+    "lastUpdate_cloud": "Sat Oct 12 2024 18:17:16 GMT-0400 (Eastern Daylight Time)",
+    "lastSync": "Sat Oct 12 2024 18:17:16 GMT-0400 (Eastern Daylight Time)",
+    "shareCode": "",
+    "shareCodeExpiry": "",
+    "isRemoteResource": true,
+    "remoteIID": "us-east-1:583f0591-4b80-4c21-a6b3-0de709fb1313",
+    "remoteKey": "pilot/Fen--b19c16a2-8ef3-41dd-94c5-5b9c9074bf57--active",
+    "skills": [
+        {
+            "id": "sk_hack_or_fix",
+            "rank": 2
+        },
+        {
+            "id": "sk_invent_or_create",
+            "rank": 1
+        },
+        {
+            "id": "sk_investigate",
+            "rank": 1
+        },
+        {
+            "id": "sk_read_a_situation",
+            "rank": 1
+        },
+        {
+            "id": "sk_stay_cool",
+            "rank": 1
+        }
+    ],
+    "talents": [
+        {
+            "id": "t_executioner",
+            "rank": 2
+        },
+        {
+            "id": "t_duelist",
+            "rank": 2
+        },
+        {
+            "id": "t_brawler",
+            "rank": 1
+        }
+    ],
+    "mechSkills": [
+        4,
+        0,
+        0,
+        0
+    ],
+    "counter_data": [
+        {
+            "id": "ctr_duelist",
+            "name": "Blademaster Dice",
+            "default_value": 0,
+            "min": 0,
+            "max": 3
+        }
+    ],
+    "custom_counters": [],
+    "core_bonuses": [],
+    "licenses": [
+        {
+            "id": "mf_balor",
+            "rank": 2
+        }
+    ],
+    "reserves": [],
+    "orgs": [],
+    "bondId": "",
+    "xp": 0,
+    "stress": 0,
+    "isBroken": false,
+    "burdens": [],
+    "bondPowers": [],
+    "powerSelections": 0,
+    "maxStress": 8,
+    "bondAnswers": [
+        "",
+        ""
+    ],
+    "minorIdeal": "",
+    "clocks": [],
+    "group": "Doppler-14",
+    "sort_index": 1,
+    "portrait": "",
+    "cloud_portrait": "",
+    "loadout": {
+        "id": "3350f1d6-a480-479b-930a-d82ca1b2b3d1",
+        "name": "Primary",
+        "armor": [
+            {
+                "id": "ms_exo_assault_carapace_armor",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "While Hercynian society is far from primitive, the HUC lacks the advanced industrial manufacturing base required to easily fabricate the large quantities of composite materials needed for modern armor. As a result, the personal combat armor worn by rangers and other combatants is typically made from interlocking and overlapping layers of molted Egregorian carapace, donated by willing volunteers. Distinctly insectile in appearance, treatment allows the carapace to be molded into a variety of shapes and styles suitable for numerous occupational specialties ranging from long-range reconnaissance to heavy assault. While many examples of carapace armor are unpowered, ranger pilots and special forces units use carapace hardsuits created by marrying the plates to various strength-amplification exoskeletons and fitting them with upgraded power sources, interface systems, and environmental seals. Acquiring a carapace hardsuit isn't a simple matter. Such suits don’t tend to be available for sale in currency or barter, instead being either handed down from pilot to pilot or custom-made according to a number of formal traditions. These traditions include seeking permission from a willing Egregorian donor to use their carapace and the personal participation of the wearer in the crafting, a process that can take weeks depending on the complexity of the suit. Should a PC manage to obtain one of these hardsuits, you may represent it with the following stats. The multiple ablative layers of treated chitin make carapace hardsuits especially effective at dispersing the effects of energy weapons, and as a result all such armor has RESISTANCE to energy damage.",
+                "customDamageType": null
+            }
+        ],
+        "weapons": [
+            {
+                "id": "pg_medium_a_c",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Medium A/C weapons are typically swords, officer’s sabers, and trench axes.",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_light_signature",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Light signature weapons might be oversized revolvers, braces of pistols, and submachine guns.",
+                "customDamageType": null
+            }
+        ],
+        "gear": [
+            {
+                "id": "pg_frag_grenades",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Expend a charge for the following effect:<ul><li><b>Frag Grenade</b> (Grenade, Range 5, Blast 1): Affected characters must succeed on an Agility save or take 2 Explosive damage.</li></ul>",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_subjectivity_enhancement_suite",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "A subjectivity-enhancement suite is a set of cybernetic implants allowing users to hack systems without a rig. Users of these suites blend the organic with the synthetic, gaining the ability to extrude implanted universal-plug cables from within their body to make hardline connections with terminals. When plugged in, users can access a comprehensive, fully interactive alternate-reality interface with direct omninet access, making navigating – or hacking – local and networked systems as easy as wishing it so (of course, you must be careful: by opening up your mind to the digital, you may face dangers other, less enhanced people are ignorant of).",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_thermite_charge",
+                "destroyed": false,
+                "uses": 1,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Expend a charge for the following effect:<ul><li><b>Thermite Charge</b> (Mine, Burst 1): This charge must be remotely detonated as a quick action. Affected characters must succeed on an Engineering save or take 3 Energy AP. Thermal charges automatically hit objects, dealing 10 Energy AP.</li></ul>",
+                "customDamageType": null
+            }
+        ],
+        "extendedWeapons": [
+            null
+        ],
+        "extendedGear": [
+            null,
+            null
+        ]
+    },
+    "brews": [
+        {
+            "LcpId": "MMhitef+jvmY2uy9kdaCSXKJSeA=",
+            "LcpName": "Lancer Wallflower Data",
+            "LcpVersion": "2.0.5",
+            "Website": "https://massif-press.itch.io/no-room-for-a-wallflower-act-1"
+        },
+        {
+            "LcpId": "05B2PGxewZ193c4GaHDBoE2sl8U=",
+            "LcpName": "LANCER: Dustgrave",
+            "LcpVersion": "1.3.1",
+            "Website": "https://massif-press.itch.io/dustgrave"
+        }
+    ]
+}

@@ -1,2 +1,12 @@
 [
+    {
+        "type": "Tactical Advantage",
+        "name": "Vehicle",
+        "description": "Armored APC able to carry mechs and traverse long distances"
+    },
+    {
+        "type": "Resource",
+        "name": "Safe Harbor",
+        "description": "The relay node station 'sightseeing'"
+    }
 ]

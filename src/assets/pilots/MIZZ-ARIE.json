@@ -1,0 +1,478 @@
+{
+    "id": "5661ce35-ba57-49e9-bcc9-c4552f506917",
+    "level": 2,
+    "callsign": "Mizz-ARIE",
+    "name": "Mia",
+    "player_name": "",
+    "status": "Active",
+    "dead": false,
+    "text_appearance": "",
+    "notes": "+1 to limited weapon or system. To use core power twice\n\nManuum Jailer",
+    "history": "",
+    "quirks": [],
+    "current_hp": 10,
+    "background": "Hacker",
+    "resistances": [],
+    "mechs": [
+        {
+            "id": "f99cd2ff-1110-4580-aac9-d8c5158d19e3",
+            "name": "Mizz-ARIE",
+            "notes": "",
+            "gm_note": "",
+            "frame": "mf_chomolungma",
+            "active": false,
+            "current_structure": 4,
+            "current_move": 4,
+            "boost": 0,
+            "current_hp": 2,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 4,
+            "current_overcharge": 0,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Sun Sep 21 2025 01:28:48 GMT+0200 (Central European Summer Time)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "https://pbs.twimg.com/media/EqNJjf6XcAA6ezO.png",
+            "loadouts": [
+                {
+                    "id": "08c50746-4340-46f1-ad6b-df8d1914a5c5",
+                    "name": "Primary",
+                    "systems": [
+                        {
+                            "id": "ms_turret_drones",
+                            "uses": 1,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "The use of turret drones is a rather traditional form of force multiplication – one that has remained the backbone of defense in many theaters."
+                        },
+                        {
+                            "id": "ms_personalizations",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_rapid_burst_jump_jet_system",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_manipulators",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "Precise interaction with built and natural environments, soft targets, and hazardous materials is part of the daily routine for support-class mechs. This is made possible by manipulators – added multi-digit “hands” with haptic sensors."
+                        },
+                        {
+                            "id": "ms_h0r_os_system_upgrade_i",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "This system upgrade appears to add auxiliary INSTINCT systems that are capable of autonomous operation independent of the base INSTINCT rig, increasing the efficacy of systemic invasion attempts. Pilots report unnerving low-frequency humming when this tech is installed without the parent rig."
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Main/Aux",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": {
+                                        "id": "mw_assault_rifle",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-I (T-1) line is defined by powerful, reliable, and conventional-kinetic ranged and melee weapons, including the GMS assault rifle, heavy machine gun, shotgun, pistol, and various light and heavy blades. Reliable galactic standards, the GMS T-1 line is the most widely used mech-scale line of weaponry across the galaxy. Echoing the Everest’s design notes, T-1 weapons are simply designed, with few (if any) moving parts, intended to be used in or adaptable to any environment.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                },
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": {
+                                        "id": "mw_segment_knife",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Flex",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Flex",
+                                    "weapon": {
+                                        "id": "mw_autopod",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "The autopod is a small antipersonnel weapon apparently devised by HORUS communocyphers to continue offensive action in the event of its operator’s death. Each unit is, in theory, governed by a spur of INSTINCT’s protomind. No new models have been encountered since DHIYED, and all extant versions of the Autopod are to be considered extremely dangerous as the INSTINCT code powering their onboard protominds is likely to have corrupted further since their creation.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": null
+                                }
+                            ],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 0
+        }
+    ],
+    "cc_ver": "",
+    "special_equipment": {
+        "PilotGear": [],
+        "Frames": [],
+        "MechWeapons": [],
+        "WeaponMods": [],
+        "MechSystems": [],
+        "SystemMods": []
+    },
+    "combat_history": {
+        "moves": 3,
+        "kills": 0,
+        "damage": 13,
+        "hp_damage": 9,
+        "structure_damage": 0,
+        "overshield": 0,
+        "heat_damage": 7,
+        "reactor_damage": 0,
+        "overcharge_uses": 0,
+        "core_uses": 0
+    },
+    "state": {
+        "active_mech_id": "f99cd2ff-1110-4580-aac9-d8c5158d19e3",
+        "remote_mech_id": "",
+        "stage": "Combat",
+        "turn": 5,
+        "mission": 1,
+        "actions": 2,
+        "braced": false,
+        "overcharged": false,
+        "prepare": false,
+        "bracedCooldown": false,
+        "redundant": false,
+        "mounted": true,
+        "stats": {
+            "moves": 0,
+            "kills": 0,
+            "damage": 3,
+            "hp_damage": 12,
+            "structure_damage": 0,
+            "overshield": 0,
+            "heat_damage": 0,
+            "reactor_damage": 0,
+            "overcharge_uses": 0,
+            "core_uses": 0
+        },
+        "deployed": [
+            {
+                "data": {
+                    "name": "Turret Drone",
+                    "type": "Drone",
+                    "size": 0.5,
+                    "hp": 5,
+                    "edef": 10,
+                    "evasion": 10,
+                    "detail": "Gain the Turret Attack reaction, which can be taken once for each deployed turret drone. Turret drones cannot be recalled and expire at the end of the scene.",
+                    "actions": [
+                        {
+                            "name": "Turret Attack",
+                            "activation": "Reaction",
+                            "frequency": "1/round",
+                            "trigger": "An allied character within Range 10 of a turret drone makes a successful attack.",
+                            "detail": "The turret drone deals 3 Kinetic damage to their target, as long as it has line of sight to their target."
+                        }
+                    ],
+                    "id": "Drone_89842807-f5ac-4b32-9617-07cfb1c34257"
+                },
+                "assigned_name": "Turret Drone",
+                "current_hp": 10,
+                "Destroyed": false
+            },
+            {
+                "data": {
+                    "name": "Turret Drone",
+                    "type": "Drone",
+                    "size": 0.5,
+                    "hp": 5,
+                    "edef": 10,
+                    "evasion": 10,
+                    "detail": "Gain the Turret Attack reaction, which can be taken once for each deployed turret drone. Turret drones cannot be recalled and expire at the end of the scene.",
+                    "actions": [
+                        {
+                            "name": "Turret Attack",
+                            "activation": "Reaction",
+                            "frequency": "1/round",
+                            "trigger": "An allied character within Range 10 of a turret drone makes a successful attack.",
+                            "detail": "The turret drone deals 3 Kinetic damage to their target, as long as it has line of sight to their target."
+                        }
+                    ],
+                    "id": "Drone_0c6ddcf3-e85d-49ba-83ef-307ebe997f45"
+                },
+                "assigned_name": "Turret Drone",
+                "current_hp": 10,
+                "Destroyed": false
+            }
+        ]
+    },
+    "lastModified": "Fri May 30 2025 12:41:58 GMT+0200 (Central European Summer Time)",
+    "isDeleted": false,
+    "expireTime": "",
+    "deleteTime": "",
+    "lastUpdate_cloud": "Sat Jul 20 2024 23:00:18 GMT+0100 (British Summer Time)",
+    "lastSync": "Sat Jul 20 2024 23:00:18 GMT+0100 (British Summer Time)",
+    "shareCode": "",
+    "shareCodeExpiry": "",
+    "isRemoteResource": true,
+    "remoteIID": "us-east-1:6f07d32d-4fc9-4bae-bb57-2406045f7085",
+    "remoteKey": "pilot/Mia--5661ce35-ba57-49e9-bcc9-c4552f506917--active",
+    "skills": [
+        {
+            "id": "sk_hack_or_fix",
+            "rank": 2
+        },
+        {
+            "id": "sk_invent_or_create",
+            "rank": 1
+        },
+        {
+            "id": "sk_investigate",
+            "rank": 1
+        },
+        {
+            "id": "sk_survive",
+            "rank": 1
+        }
+    ],
+    "talents": [
+        {
+            "id": "t_bonded",
+            "rank": 2
+        },
+        {
+            "id": "t_hacker",
+            "rank": 1
+        },
+        {
+            "id": "t_drone_commander",
+            "rank": 1
+        }
+    ],
+    "mechSkills": [
+        0,
+        1,
+        2,
+        0
+    ],
+    "counter_data": [],
+    "custom_counters": [],
+    "core_bonuses": [],
+    "licenses": [
+        {
+            "id": "mf_goblin",
+            "rank": 1
+        }
+    ],
+    "reserves": [],
+    "orgs": [],
+    "bondId": "",
+    "xp": 0,
+    "stress": 0,
+    "isBroken": false,
+    "burdens": [],
+    "bondPowers": [],
+    "powerSelections": 0,
+    "maxStress": 8,
+    "bondAnswers": [
+        "",
+        ""
+    ],
+    "minorIdeal": "",
+    "clocks": [],
+    "group": "Doppler-14",
+    "sort_index": 2,
+    "portrait": "",
+    "cloud_portrait": "https://cdn.discordapp.com/attachments/733060827103363073/1195176028360953866/image.png?ex=65b3096a&is=65a0946a&hm=9e26262fb40bca45fbbb0fddd589b307d66550e061b3c78317167737194c6e33&",
+    "loadout": {
+        "id": "8741aece-b9d2-422b-b2e0-60678ace0782",
+        "name": "Primary",
+        "armor": [
+            {
+                "id": "pg_light_hardsuit",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Light hardsuits are usually made from reactive, cloth-like weaves, with limited plating and few powered components to maximize mobility. Like other hardsuits, they can be sealed against vacuum, and protect against a decent amount of radiation and other harmful particles.",
+                "customDamageType": null
+            }
+        ],
+        "weapons": [
+            {
+                "id": "pg_light_signature",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Light signature weapons might be oversized revolvers, braces of pistols, and submachine guns.",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_light_a_c",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Light A/C weapons might be knives, bayonets, punching daggers, and short swords.",
+                "customDamageType": null
+            }
+        ],
+        "gear": [
+            {
+                "id": "pg_smart_scope",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "A powerful electronic scope that provides high-resolution magnification up to two miles, and automatically adjusts its reticle for wind, gravity, and pressure. Smart scopes can project their field of vision and all data to the HUD of any networked user. They can also pair with other thermal, optical, or simulated-vision devices to further enhance targeting.",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_personal_drone",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Small, non-combat drones are a common sight in the field. They’re fairly noisy but can fly about half a mile with good maneuverability before losing signal, relaying audio and visual information as they go.",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_subjectivity_enhancement_suite",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "A subjectivity-enhancement suite is a set of cybernetic implants allowing users to hack systems without a rig. Users of these suites blend the organic with the synthetic, gaining the ability to extrude implanted universal-plug cables from within their body to make hardline connections with terminals. When plugged in, users can access a comprehensive, fully interactive alternate-reality interface with direct omninet access, making navigating – or hacking – local and networked systems as easy as wishing it so (of course, you must be careful: by opening up your mind to the digital, you may face dangers other, less enhanced people are ignorant of).",
+                "customDamageType": null
+            }
+        ],
+        "extendedWeapons": [
+            null
+        ],
+        "extendedGear": [
+            null,
+            null
+        ]
+    },
+    "brews": [
+        {
+            "LcpId": "GWG3TKHfJGNXeO3U3Q+CgjhS/Os=",
+            "LcpName": "Operation Solstice Rain Data",
+            "LcpVersion": "1.1.2",
+            "Website": "https://massif-press.itch.io/operation-solstice-rain"
+        }
+    ]
+}

@@ -4,7 +4,7 @@
 		  v-if="$props.clock.type == 'Story'"
 		  :class="$props.clock.type.toLowerCase()">
 			<div class="clock-header">
-				<h2 class="clock-subtitle">Story // Relationship</h2>
+				<h2 class="clock-subtitle">{{ $props.clock.type }} //</h2>
 				<h1 class="clock-title">{{ $props.clock.name }}</h1>
 			</div>
 			<div class="clock-body">
@@ -23,12 +23,13 @@
 		  v-if="$props.clock.type != 'Story'"
 		  :class="$props.clock.type.toLowerCase()">
 			<div class="clock-body">
-				<div class="clock">
+				<div class="clock" style="width: 20%">
 					<DoughnutChart
 					  :chartData="testData"
 					  :options="options"
 					  class="chart" />
 				</div>
+				<div style="width: 10%"></div>
 				<div class="clock-header">
 					<h2 class="clock-subtitle">{{ $props.clock.type }}</h2>
 					<h1 class="clock-title">{{ $props.clock.name }}</h1>

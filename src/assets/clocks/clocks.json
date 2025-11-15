@@ -1,2 +1,66 @@
 [
+    {
+        "type": "Story",
+        "name": "Judgement",
+        "description": "The end is near. The Blackfin Divisions plans for the complete and utter destruction is on the horison. If nothing is done, then all will die.",
+        "max": 6,
+        "value": 3,
+        "color": "#cf132f"
+    },
+    {
+        "type": "Story",
+        "name": "Weapons Manufacturing",
+        "description": "The blackfin division's weapons manufacturing facility is running at 100% efficiency, and will soon produce weapons to suppress any opposition.",
+        "max": 3,
+        "value": 2,
+        "color": "#cf132f"
+    },
+    {
+        "type": "Faction Rep",
+        "name": "Blackfin Division",
+        "description": "Previously a branch of Harrison Armory's military units. Now a renegade group which has taken forceful control of Doppler-14 after inciting a war between the local people of the planet and the union.",
+        "max": 3,
+        "value": 3,
+        "color": "#cf132f"
+    },
+    {
+        "type": "Faction Rep",
+        "name": "Badgers",
+        "description": "A resistance group which formed during the bombing of Malran by the Blackfin divison.  They have been engaging in gurilla tactics agains the remaining union auxilaries and the  blackfin division.",
+        "max": 3,
+        "value": 3,
+        "color": "#1da81b"
+    },
+    {
+        "type": "Faction Rep",
+        "name": "Cecropia Group",
+        "description": "A gang of pirates and haulers that have their origin within the SSC (Smith-Shimando Corpro). Becoming profiteers after the war began, they control one of the few remaining large scale printers left on the planet.",
+        "max": 3,
+        "value": 1,
+        "color": "#cf132f"
+    },
+    {
+        "type": "Faction Rep",
+        "name": "Harrison Loyalists",
+        "description": "After the 30 years of war on Doppler-14 people loyal to Harrison armory have started to work against the Blackfin divison. Lead by Isma Racksand, they seek to return home to their home world Ras Shamra.",
+        "max": 3,
+        "value": 3,
+        "color": "#1da81b"
+    },
+    {
+        "type": "Faction Rep",
+        "name": "Munnin's Jailers",
+        "description": "Appearing after the excavation of the drop point by the Blackfin division. This highly dangerous group of Horus operatives have brought mass destruction to the world.",
+        "max": 3,
+        "value": 3,
+        "color": "#1da81b"
+    },
+    {
+        "type": "Faction Rep",
+        "name": "United Doppler",
+        "description": "The remaining auxiliary forces of the Union that remained on Doppler-14 after all communications with the outside world was cut off. Led by Retvil Kas they have attempted to reestablish relations with the locals, provide humanitarian aid, and maintain peace.",
+        "max": 3,
+        "value": 1,
+        "color": "#cf132f"
+    }
 ]
