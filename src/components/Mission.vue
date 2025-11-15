@@ -33,6 +33,7 @@ export default {
       if (this.mission.status === "partial-success") return "Partial\nSuccess";
       if (this.mission.status === "success") return "Mission\nSuccess";
       if (this.mission.status === "failure") return "Mission\nFailure";
+      if (this.mission.status === "unavailable") return "Unavail-\nable";
     },
     isActive() {
       return this.mission.slug === this.selected;
