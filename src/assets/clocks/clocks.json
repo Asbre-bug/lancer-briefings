@@ -20,7 +20,7 @@
         "name": "Blackfin Division",
         "description": "Previously a branch of Harrison Armory's military units. Now a renegade group which has taken forceful control of Doppler-14 after inciting a war between the local people of the planet and the union.",
         "max": 3,
-        "value": 3,
+        "value": 1,
         "color": "#cf132f"
     },
     {
